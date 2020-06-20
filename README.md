@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+20/06/20
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data  
 
 ### Description
-Describe what your project is about and what it does
-
+This project displays a dataset based on user interaction, the user can select a city, day and month and get information from the dataset for example most common station or most popular day of the week.
+ 
 ### Files used
-Include the files used
+bikeshare.py chicago.csv new york city.csv washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+NA
