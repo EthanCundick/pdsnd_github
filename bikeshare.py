@@ -198,20 +198,23 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+
 def display_raw_data(df):
     """Displays raw bikeshare data."""
-    
+
     raw = ""
     start = 0
     end = 5
     while raw.lower() != "no":
-        raw = input('\nWould you like to view 5 (more) lines of raw bikeshare data? Enter yes or no.\n')
+        raw = input(
+            '\nWould you like to view 5 (more) lines of raw bikeshare data? Enter yes or no.\n')
         if raw.lower() == 'yes':
             print(df[df.columns[0:]].iloc[start:end])
             start += 5
             end += 5
         else:
             print("You have entered an incorrect value please try again")
+
 
 def main():
     while True:
