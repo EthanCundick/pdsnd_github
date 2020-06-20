@@ -194,8 +194,8 @@ def user_stats(df):
         print('The most common year of birth is {}.\n'.format(int(most_common_yob)))
     except:
         print('Unfortunately there is no birth data for this city.\n')
-    
-    print("\nThis took %s seconds." % (time.time() - start_time))    
+
+    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 def display_raw_data(df):
